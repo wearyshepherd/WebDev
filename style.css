@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#hero {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Add margin to prevent overlap */
+#about, #projects, #contact {
+    margin-top: 100px; /* Adjust this value if needed */
+}
+
+/* Add black space between each category */
+.category-separator {
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+}
+
+/* Background for each category */
+#media-outlets {
+    background-image: url('IMG_0489.jpg'); /* Replace with correct path */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+}
+
+#software-projects {
+    background-image: url('IMG_0491.jpg'); /* Replace with correct path */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+}
+
+#online-shops {
+    background-image: url('IMG_0493.jpg'); /* Replace with correct path */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+}
+
+/* Content box styling */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Makes the background translucent */
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
